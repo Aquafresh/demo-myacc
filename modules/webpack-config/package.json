@@ -1,0 +1,17 @@
+{
+  "name": "@my-acc/webpack-config",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "yarn run lint:js",
+    "lint:js": "eslint --ext .js --ext .jsx  --quiet",
+    "clean:build": "exit 0",
+    "clean:nodemodules": "rimraf ./node_modules",
+    "clean": "yarn run clean:build && yarn run clean:nodemodules"
+  },
+  "dependencies": {
+    "less": "3.10.3",
+    "less-loader": "5.0.0"
+  }
+}

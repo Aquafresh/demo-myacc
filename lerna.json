@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "webpack-config/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

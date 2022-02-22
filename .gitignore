@@ -1,0 +1,13 @@
+**/.idea
+**/node_modules
+**/.tmp
+**/build
+**/dist
+**/coverage
+.DS_Store
+**/storybook-static
+lerna-debug.log
+**/.size-snapshot.json
+**/cjs/
+**/esm/
+**/.cache/**
